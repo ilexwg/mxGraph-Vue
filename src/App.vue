@@ -1,12 +1,17 @@
 <template>
   <div id="app">
-    <el-button>button</el-button>
+    <graph-editor></graph-editor>
   </div>
 </template>
 
 <script>
+import GraphEditor from './view/GraphEditor'
+
 export default {
-  name: 'App'
+  name: 'App',
+  components: {
+    GraphEditor
+  }
 }
 </script>
 
